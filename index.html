@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kuerry | Get all your favourite designs here</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+
+<body>
+
+    <nav>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+        </div>
+    </nav>
+
+    <div class="heading-wrapper">
+        <div class="heading-holder">
+            <img src="assets/images/kuerry.png" alt="Kuerry">
+        </div>
+    </div>
+
+    <div class="search-wrapper">
+        <div class="input-holder">
+            <input type="text" class="search-input" placeholder="Search the most amazing creations of Human..." />
+            <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+        </div>
+        <span class="close" onclick="searchToggle(this, event);"></span>
+    </div>
+
+    <footer>
+        <div class="navigation-bar">
+            <a href="#pricing" class="nav-items">Pricing</a>
+            <a href="#register" class="nav-items">Register</a>
+            <a href="#about" class="nav-items">About</a>
+            <a href="#contact" class="nav-items">Contact</a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
